@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+@font-face {
+ font-family: 'Bebas';
+ src: url('/assets/fonts/BEBAS NEUE/BebasNeue-Regular.ttf') format('truetype');
+ font-weight: 400;
+ font-style: normal; 
+}
+
+@font-face {
+ font-family: 'Manrope-regular';
+ src: url('/assets/fonts/Manrope/Manrope-Regular.ttf') format('truetype');
+ font-weight: 400;
+ font-size: normal;
+}
+
+@font-face {
+ font-family: 'Manrope-medium';
+ src: url('/assets/fonts/Manrope/Manrope-Medium.ttf') format('truetype');
+ font-weight: 500;
+ font-size: normal;
+}
+
+@font-face {
+ font-family: 'Manrope-bold';
+ src: url('/assets/fonts/Manrope/Manrope-Bold.ttf') format('truetype');
+ font-weight: 700;
+ font-size: normal;
+}
+
+@font-face {
+ font-family: 'Manrope-semibold';
+ src: url('/assets/fonts/Manrope/Manrope-SemiBold.ttf') format('truetype');
+ font-weight: 600;
+ font-size: normal;
+}
+
+@font-face {
+ font-family: 'Inter';
+ src: url('/assets/fonts/Inter/Inter-Medium.ttf') format('truetype');
+ font-weight: 500;
+ font-size: normal;
+}
+
+:root {
+ --fundo: #0A0A0A;
+ --font-txt-menores: #C7C7C7;
+ --font-txt-grandes: #FFFFFF;
+ --btn-link: #D3E97A;
+ --fundo-projects: #1A1A1A;
+ --fundo-btn-contact: #222222;
+}
+
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
+body {
+ height: 100%;
+ width: 100%;
+ background-color: var(--fundo);
+}
