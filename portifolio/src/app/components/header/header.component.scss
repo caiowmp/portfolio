@@ -1,0 +1,111 @@
+header nav {
+ background: var(--fundo);
+ display: flex;
+ flex-direction: line;
+ justify-content: flex-start;
+ align-items: center;
+ width: 100%;
+ min-width: 100vw;
+}
+
+
+header nav .nome-container h1 {
+ font-family: 'Bebas';
+ color: var(--font-txt-menores);
+ padding: 30px;
+ font-size: 32px;
+}
+
+header nav .menu-container {
+ font-family: 'Inter';
+ position: absolute;
+ right: 0;
+ padding-right: 30px;
+}
+
+
+header nav .menu-container li {
+ display: inline;
+}
+
+header nav .menu-container li a {
+ font-size: 16px;
+ color: var(--font-txt-menores);
+ display: inline-block;
+ padding: 20px;
+ text-decoration: none;
+ transition: background .3s;
+}
+
+header nav .menu-container li a:hover {
+ background-color: var(--btn-link);
+}
+
+header .content-container h1 {
+ font-family: 'Bebas';
+ font-size: 101px;
+ color: var(--font-txt-grandes);
+}
+
+header .content-container p {
+ font-family: 'Manrope-regular';
+ font-size: 18px;
+ color: var(--font-txt-menores);
+}
+
+header .buttons-container button {
+ background-color: var(--btn-link);
+ color: var(--fundo-btn-contact);
+ font-family: 'Inter';
+ font-size: 16px;
+ font-weight: 600;
+
+ width: 200px;
+ margin: 30px;
+ margin-left: 0;
+ padding: 15px;
+ border: 2px solid var(--btn-link);
+ border-radius: 30px;
+ text-align: left;
+}
+
+header .content-container {
+ display: flex;
+ flex-direction: line;
+ justify-content: flex-start;
+ align-items: center;
+ width: 100%;
+ min-width: 100vw;
+ padding-top: 7%;
+}
+
+header .content-container .apresentation-container {
+ align-items: flex-start;
+ display: flex;
+ padding-left: 10%;
+ align-items: center;
+ display: inline-block;
+ width: 100%;
+ flex-direction: line;
+}
+
+header .image-container img {
+ border-radius: 20px;
+}
+
+header .content-container .image-container {
+ position: absolute;
+ right: 0;
+ padding-right: 10%;
+}
+
+header hr {
+ display: block;
+ position: absolute;
+ bottom: 0;
+ margin-bottom: 0.5em;
+ background-color: var(--font-txt-menores);
+ size: 1px;
+ width: 100%;
+ opacity: 0.1;
+}
