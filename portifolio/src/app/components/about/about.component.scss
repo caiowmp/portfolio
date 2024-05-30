@@ -1,0 +1,51 @@
+.content-container {
+ display: flex;
+ padding-top: 100px;
+ flex-direction: column;
+ padding-left: 108px;
+ border-bottom: 1px solid var(--linhas);
+ height: 600px;
+}
+
+.content-container .text-container h1 {
+ font-family: 'Bebas';
+ font-size: 101px;
+ color: var(--font-txt-grandes);
+}
+
+.text-container {
+ display: block;
+}
+
+.description-links {
+ width: 704px;
+ height: 408px;
+ position: absolute;
+ right: 0;
+ margin-right: 108px;
+}
+
+.description-links h1 {
+ font-family: "Manrope-medium";
+ font-size: 32px;
+ font-weight: 400;
+ color: var(--font-txt-grandes);
+ padding-bottom: 16px;
+}
+
+.description-links p {
+ font-family: "Manrope-regular";
+ font-size: 18px;
+ font-weight: 500;
+ color: var(--font-txt-menores);
+ padding-bottom: 32px;
+}
+
+.description-links a {
+ color: var(--btn-link);
+ text-decoration: none;
+ border-bottom: 1px solid var(--btn-link);
+ padding-bottom: 4px;
+ font-family: "Manrope-bold";
+ font-size: 16px;
+}
