@@ -1,0 +1,49 @@
+.content-container {
+ display: flex;
+ padding-top: 100px;
+ flex-direction: column;
+ padding-left: 108px;
+ height: 600px;
+}
+
+.content-container h1 {
+ font-family: 'Bebas';
+ font-size: 101px;
+ color: var(--font-txt-grandes);
+}
+
+.content-container p {
+ font-family: "Manrope-regular";
+ font-size: 18px;
+ font-weight: 500;
+ color: var(--font-txt-menores);
+}
+
+.content-container a {
+ font-family: "Manrope-bold";
+ font-size: 18px;
+ font-weight: 500;
+ color: var(--font-txt-menores);
+ text-decoration: none;
+ border-bottom: 1px solid var(--btn-link);
+ margin-left: 3px;
+}
+
+.text-container {
+ display: flex;
+ align-items: center;
+ padding-bottom: 8px;
+}
+
+.content-container .icons-container a {
+ border-bottom: 0;
+ color: var(--btn-link);
+ text-align: center;
+ font-size: 24px;
+ font-weight: 700;
+ margin-right: 16px;
+}
+
+.content-container .icons-container {
+ padding-top: 200px;
+}
