@@ -1,28 +1,43 @@
-<header>
- <nav>
-  <div class="nome-container">
-   <h1>CAIO PEREIRA</h1>
-  </div>
-  <div class="menu-container">
-   <ul>
-    <li><a href="#">Work</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-   </ul>
-  </div>
- </nav>
- <div class="content-container">
-  <div class="apresentation-container">
-   <h1>HI, I AM<br>CAIO PEREIRA.</h1>
-   <p>A Sydney based front-end developer passionate about building<br> accessible and user friendly websites.</p>
-   <div class="buttons-container">
-    <button class="btn-contact-me">CONTACT ME</button>
-   </div>
-  </div>
-  <div class="image-container">
-   <img src="../../../assets/images/ft.jpg">
-  </div>
- </div>
- <hr>
-</header>
+<head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    .gitHubIcon {
+      color: var(--btn-link);
+      background-color: var(--fundo-btn-contact);
+      font-size: 26px;
+    }
+  </style>
+</head>
 
+<header>
+  <nav>
+    <div class="nome-container">
+      <h1>CAIO PEREIRA</h1>
+    </div>
+    <div class="menu-container">
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#connect">Contact</a></li>
+        <li><button mat-icon-button class="button-menu">
+          <mat-icon>menu</mat-icon></button></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content-container">
+    <div class="apresentation-container">
+      <h1>HI, I AM<br>CAIO PEREIRA.</h1>
+      <p>A Sydney based front-end developer passionate about building<br> accessible and user friendly websites.</p>
+      <div class="buttons-container">
+        <a href="https://wa.me/71993009831" target="_blank"><button class="btn-contact-me">CONTACT ME</button></a>
+        <a href="https://www.linkedin.com/in/caio-miranda-183112204/" target="_blank"><button
+            class="icon-button">in</button></a>
+        <a href="https://github.com/caiowmp" target="_blank"><button class="icon-button"><i
+              class="fa-brands fa-github gitHubIcon"></i></button></a>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="./assets/images/ft.jpg">
+    </div>
+  </div>
+</header>

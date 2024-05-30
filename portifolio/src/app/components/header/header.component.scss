@@ -1,3 +1,9 @@
+header {
+ display: block;
+ padding-bottom: 300px;
+ border-bottom: 1px solid var(--linhas);
+}
+
 header nav {
  background: var(--fundo);
  display: flex;
@@ -8,11 +14,15 @@ header nav {
  min-width: 100vw;
 }
 
+.button-menu {
+ color: var(--font-txt-menores);
+ display: none;
+}
 
 header nav .nome-container h1 {
  font-family: 'Bebas';
  color: var(--font-txt-menores);
- padding: 30px;
+ padding: 24px 60px;
  font-size: 32px;
 }
 
@@ -20,9 +30,9 @@ header nav .menu-container {
  font-family: 'Inter';
  position: absolute;
  right: 0;
- padding-right: 30px;
+ padding-right: 60px;
+ align-items: center;
 }
-
 
 header nav .menu-container li {
  display: inline;
@@ -53,7 +63,7 @@ header .content-container p {
  color: var(--font-txt-menores);
 }
 
-header .buttons-container button {
+header .buttons-container .btn-contact-me {
  background-color: var(--btn-link);
  color: var(--fundo-btn-contact);
  font-family: 'Inter';
@@ -66,7 +76,9 @@ header .buttons-container button {
  padding: 15px;
  border: 2px solid var(--btn-link);
  border-radius: 30px;
- text-align: left;
+ text-align: center;
+ align-items: center;
+ cursor: pointer;
 }
 
 header .content-container {
@@ -76,13 +88,13 @@ header .content-container {
  align-items: center;
  width: 100%;
  min-width: 100vw;
- padding-top: 7%;
+ padding-top: 126px;
+ border-bottom: 1px ;
 }
 
 header .content-container .apresentation-container {
  align-items: flex-start;
- display: flex;
- padding-left: 10%;
+ padding-left: 108px;
  align-items: center;
  display: inline-block;
  width: 100%;
@@ -96,16 +108,24 @@ header .image-container img {
 header .content-container .image-container {
  position: absolute;
  right: 0;
- padding-right: 10%;
+ padding-right: 108px;
 }
 
-header hr {
- display: block;
- position: absolute;
- bottom: 0;
- margin-bottom: 0.5em;
- background-color: var(--font-txt-menores);
- size: 1px;
- width: 100%;
- opacity: 0.1;
+.buttons-container {
+ align-items: center;
+ display: flex;
+}
+
+.icon-button {
+ height: 54px;
+ width: 54px;
+ background-color: var(--fundo-btn-contact);
+ margin-right: 16px;
+ border-radius: 100%;
+ border: 0;
+ cursor: pointer;
+ color: var(--btn-link);
+ text-align: center;
+ font-size: 24px;
+ font-weight: 700;
 }
