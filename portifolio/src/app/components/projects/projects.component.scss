@@ -1,9 +1,8 @@
 .content-container {
- display: block;
  padding-top: 100px;
- flex-direction: column;
- align-items: flex-start;
- padding-left: 108px;
+ padding-left: 8.4%;
+ padding-right: 8.4%;
+ padding-bottom: 100px;
  border-bottom: 1px solid var(--linhas);
 }
 
@@ -21,41 +20,29 @@
 }
 
 .apresentation-container {
- align-items: flex-start;
- display: flex;
- align-items: center;
  display: inline-block;
- width: 100%;
- flex-direction: line;
+ width: 650px;
 }
 
 .projects-container {
  display: flex;
  align-items: center;
- padding-bottom: 120px;
+ padding-bottom: 150px;
+ justify-content: space-between;
 }
 
 .projects-container .projects-images {
  background-color: var(--fundo-projects);
- display: block;
  border-radius: 12px;
- width: 600px;
- height: 600px;
+ width: 650px;
+ height: 550px;
  align-items: center;
  display: flex;
  justify-content: center;
 }
 
 .projects-container .projects-description {
- align-items: flex-start;
- padding-top: 60px;
- align-items: center;
- display: block;
  width: 600px;
- height: 600px;
- position: absolute;
- right: 0;
- margin-right: 108px;
 }
 
 .projects-container .projects-description .text-description h3 {
@@ -92,6 +79,7 @@
  padding: 16px 0;
  display: flex;
  border-bottom: 0.1px solid var(--font-txt-menores);
+ justify-content: space-between;
 }
 
 .projects-container .projects-description .text-description .text-info p {
@@ -101,8 +89,6 @@
 
 .projects-container .projects-description .text-description .text-info span {
  color: var(--font-txt-menores);
- position: absolute;
- right: 0;
 }
 
 .projects-container .projects-description .text-description .projects-links {
@@ -113,7 +99,8 @@
 
 .projects-container .projects-description .text-description .projects-links i {
  padding-left: 6px;
- font-size: 16px;
+ font-size: 16px
+ ;
 }
 
 .projects-container .projects-description .text-description .projects-links a {

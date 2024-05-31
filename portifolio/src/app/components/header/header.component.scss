@@ -1,17 +1,18 @@
 header {
  display: block;
- padding-bottom: 300px;
+ padding-bottom: 170px;
+ padding-right: 8.4%;
+ padding-left: 8.4%;
+ padding-top: 30px;
  border-bottom: 1px solid var(--linhas);
+ width: 100%;
 }
 
 header nav {
  background: var(--fundo);
  display: flex;
- flex-direction: line;
- justify-content: flex-start;
+ justify-content: space-between;
  align-items: center;
- width: 100%;
- min-width: 100vw;
 }
 
 .button-menu {
@@ -22,16 +23,12 @@ header nav {
 header nav .nome-container h1 {
  font-family: 'Bebas';
  color: var(--font-txt-menores);
- padding: 24px 60px;
- font-size: 32px;
+ padding-top: 24px;
+ font-size: 44px;
 }
 
 header nav .menu-container {
  font-family: 'Inter';
- position: absolute;
- right: 0;
- padding-right: 60px;
- align-items: center;
 }
 
 header nav .menu-container li {
@@ -39,7 +36,7 @@ header nav .menu-container li {
 }
 
 header nav .menu-container li a {
- font-size: 16px;
+ font-size: 20px;
  color: var(--font-txt-menores);
  display: inline-block;
  padding: 20px;
@@ -76,39 +73,22 @@ header .buttons-container .btn-contact-me {
  padding: 15px;
  border: 2px solid var(--btn-link);
  border-radius: 30px;
- text-align: center;
- align-items: center;
  cursor: pointer;
 }
 
 header .content-container {
  display: flex;
- flex-direction: line;
- justify-content: flex-start;
  align-items: center;
- width: 100%;
- min-width: 100vw;
- padding-top: 126px;
- border-bottom: 1px ;
+ padding-top: 100px;
 }
 
 header .content-container .apresentation-container {
- align-items: flex-start;
- padding-left: 108px;
- align-items: center;
  display: inline-block;
  width: 100%;
- flex-direction: line;
 }
 
 header .image-container img {
  border-radius: 20px;
-}
-
-header .content-container .image-container {
- position: absolute;
- right: 0;
- padding-right: 108px;
 }
 
 .buttons-container {
@@ -125,7 +105,26 @@ header .content-container .image-container {
  border: 0;
  cursor: pointer;
  color: var(--btn-link);
- text-align: center;
  font-size: 24px;
  font-weight: 700;
+}
+
+@media (max-width: 1440px){
+ header .content-container h1 {
+  font-size: 90px;
+ }
+
+ header .content-container p {
+  font-size: 14px;
+ }
+
+ header .buttons-container .btn-contact-me {
+  font-size: 12px;
+  width: 150px;
+ }
+
+ header .image-container img {
+  height: 540px;
+  width: 540px;
+ }
 }

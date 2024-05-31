@@ -1,9 +1,10 @@
 .content-container {
  display: flex;
- padding-top: 100px;
+ padding-top: 320px;
+ padding-bottom: 250px;
  flex-direction: column;
- padding-left: 108px;
- height: 600px;
+ padding-left: 8.4%;
+ justify-content: center;
 }
 
 .content-container h1 {
@@ -38,12 +39,12 @@
 .content-container .icons-container a {
  border-bottom: 0;
  color: var(--btn-link);
- text-align: center;
  font-size: 24px;
  font-weight: 700;
  margin-right: 16px;
+ font-family: "Inter";
 }
 
 .content-container .icons-container {
- padding-top: 200px;
+ padding-bottom: 200px;
 }

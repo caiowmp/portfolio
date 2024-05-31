@@ -1,10 +1,13 @@
 .content-container {
  display: flex;
- padding-top: 100px;
- flex-direction: column;
- padding-left: 108px;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: flex-start;
+ padding-top: 300px;
+ padding-left: 8.4%;
+ padding-right: 8.4%;
+ padding-bottom: 350px;
  border-bottom: 1px solid var(--linhas);
- height: 600px;
 }
 
 .content-container .text-container h1 {
@@ -14,15 +17,11 @@
 }
 
 .text-container {
- display: block;
+ width: 650px;
 }
 
 .description-links {
- width: 704px;
- height: 408px;
- position: absolute;
- right: 0;
- margin-right: 108px;
+ width: 600px;
 }
 
 .description-links h1 {
