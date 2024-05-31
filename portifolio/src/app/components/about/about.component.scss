@@ -48,3 +48,22 @@
  font-family: "Manrope-bold";
  font-size: 16px;
 }
+
+@media (max-width: 1440px) {
+ .content-container .text-container h1 {
+  font-size: 90px;
+ }
+
+ .description-links h1 {
+  font-size: 28px;
+ }
+
+ .description-links p {
+  font-size: 14px;
+ }
+
+ .content-container {
+  padding-top: 260px;
+  padding-bottom: 290px;
+ }
+}

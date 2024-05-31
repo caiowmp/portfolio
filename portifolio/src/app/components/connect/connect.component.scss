@@ -48,3 +48,22 @@
 .content-container .icons-container {
  padding-bottom: 200px;
 }
+
+@media (max-width: 1440px) {
+ .content-container h1 {
+  font-size: 90px;
+ }
+
+ .content-container p {
+  font-size: 14px;
+ }
+
+ .content-container a {
+  font-size: 14px;
+ }
+
+ .content-container {
+  padding-top: 270px;
+  padding-bottom: 200px;
+ }
+}

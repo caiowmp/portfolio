@@ -123,3 +123,46 @@
  width: 486px;
  height: 347px;
 } 
+
+@media (max-width: 1440px){
+ .content-container h1 {
+  font-size: 90px;
+ }
+
+ .content-container p {
+  font-size: 14px;
+ }
+
+ .projects-container .projects-images {
+  width: 550px;
+  height: 450px;
+ }
+
+ .projects-container .projects-description {
+  width: 550px;
+ }
+
+ .projects-container .projects-description .text-description h3 {
+  font-size: 28px;
+ }
+
+ .projects-container .projects-description .text-description p {
+  font-size: 14px;
+ }
+
+ .projects-container .projects-description .text-description h2 {
+  font-size: 14px;
+ }
+ 
+ .projects-container .projects-description .text-description .text-info {
+  font-size: 14px;
+ }
+
+ .projects-container .projects-description .text-description .projects-links {
+  font-size: 14px;
+ }
+
+ .apresentation-container {
+  width: 550px;
+ }
+}

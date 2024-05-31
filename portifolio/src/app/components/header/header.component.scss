@@ -1,8 +1,8 @@
 header {
  display: block;
  padding-bottom: 170px;
- padding-right: 8.4%;
- padding-left: 8.4%;
+ // padding-right: 8.4%;
+ // padding-left: 8.4%;
  padding-top: 30px;
  border-bottom: 1px solid var(--linhas);
  width: 100%;
@@ -13,6 +13,8 @@ header nav {
  display: flex;
  justify-content: space-between;
  align-items: center;
+ padding-left: 3%;
+ padding-right: 3%;
 }
 
 .button-menu {
@@ -80,6 +82,8 @@ header .content-container {
  display: flex;
  align-items: center;
  padding-top: 100px;
+ padding-left: 8.4%;
+ padding-right: 8.4%;
 }
 
 header .content-container .apresentation-container {
@@ -110,6 +114,15 @@ header .image-container img {
 }
 
 @media (max-width: 1440px){
+ header {
+  padding-bottom: 130px;
+  padding-top: 20px;
+ }
+ 
+ header .content-container {
+  padding-top: 60px;
+ }
+
  header .content-container h1 {
   font-size: 90px;
  }
@@ -126,5 +139,13 @@ header .image-container img {
  header .image-container img {
   height: 540px;
   width: 540px;
+ }
+
+ header nav .nome-container h1 {
+  font-size: 38px;
+ }
+
+ header nav .menu-container li a {
+  font-size: 16px;
  }
 }
