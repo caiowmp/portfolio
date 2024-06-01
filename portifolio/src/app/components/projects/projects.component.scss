@@ -124,6 +124,7 @@
  height: 347px;
 } 
 
+// Properties for screens size 1200px - 1440px
 @media (max-width: 1440px){
  .content-container h1 {
   font-size: 90px;
@@ -164,5 +165,38 @@
 
  .apresentation-container {
   width: 550px;
+ }
+}
+
+// Properties for screens size 993px - 1200px
+@media (max-width: 1200px){
+ .content-container h1 {
+  font-size: 76px;
+ }
+
+ .content-container p {
+  font-size: 12px;
+ }
+
+ .projects-container {
+  flex-direction: column;
+ }
+
+ .projects-container .projects-images {
+  width: 600px;
+  height: 400px;
+  align-items: flex-end;
+ }
+
+ .projects-container .projects-description .text-description {
+  padding-top: 50px;
+ }
+
+ .projects-container .projects-description .text-description .projects-links {
+  padding-top: 36px;
+ }
+
+ .apresentation-container {
+  width: 470px;
  }
 }

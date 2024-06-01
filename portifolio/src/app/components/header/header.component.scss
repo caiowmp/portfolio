@@ -12,7 +12,7 @@ header nav {
  background: var(--fundo);
  display: flex;
  justify-content: space-between;
- align-items: center;
+ align-items: flex-end;
  padding-left: 3%;
  padding-right: 3%;
 }
@@ -35,6 +35,12 @@ header nav .menu-container {
 
 header nav .menu-container li {
  display: inline;
+}
+
+.gitHubIcon {
+ color: var(--btn-link);
+ background-color: var(--fundo-btn-contact);
+ font-size: 26px;
 }
 
 header nav .menu-container li a {
@@ -113,7 +119,95 @@ header .image-container img {
  font-weight: 700;
 }
 
+// Properties for screens size 1201px - 1440px
 @media (max-width: 1440px){
+ header {
+  padding-bottom: 130px;
+  padding-top: 20px;
+ }
+ 
+ header .content-container {
+  padding-top: 60px;
+ }
+
+ header .content-container h1 {
+  font-size: 90px;
+ }
+
+ header .content-container p {
+  font-size: 14px;
+ }
+
+ header .buttons-container .btn-contact-me {
+  font-size: 12px;
+  width: 150px;
+ }
+
+ header .image-container img {
+  height: 540px;
+  width: 540px;
+ }
+
+ header nav .nome-container h1 {
+  font-size: 38px;
+ }
+
+ header nav .menu-container li a {
+  font-size: 16px;
+ }
+}
+
+// Properties for screens size 993px - 1200px
+@media (max-width: 1200px){
+ header {
+  padding-top: 10px;
+  padding-bottom: 170px;
+ }
+ 
+ header .content-container {
+  padding-top: 100px;
+ }
+
+ header .content-container h1 {
+  font-size: 76px;
+ }
+
+ header .content-container p {
+  font-size: 12px;
+ }
+
+ header .buttons-container .btn-contact-me {
+  font-size: 10px;
+  width: 120px;
+  padding: 12px;
+ }
+
+ header .image-container img {
+  height: 450px;
+  width: 450px;
+ }
+
+ header nav .nome-container h1 {
+  font-size: 32px;
+ }
+
+ header nav .menu-container li a {
+  font-size: 14px;
+ }
+
+ .icon-button {
+  height: 45px;
+  width: 45px;
+  font-size: 20px;
+ }
+
+ .gitHubIcon {
+  font-size: 22px;
+ }
+}
+
+// Properties for screens size 768px - 992px
+@media (max-width: 992px){
  header {
   padding-bottom: 130px;
   padding-top: 20px;
