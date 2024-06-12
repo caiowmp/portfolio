@@ -243,3 +243,48 @@ header .image-container img {
   font-size: 16px;
  }
 }
+
+// Properties for screens size 768px - 767px
+@media (max-width: 767px){
+ // header {
+ //  padding-bottom: 130px;
+ //  padding-top: 20px;
+ // }
+
+ .button-menu {
+  display: block;
+ }
+
+ header .content-container {
+  flex-direction: column;
+ }
+
+ header .content-container .apresentation-container {
+  width: 540px;
+ }
+
+ header .content-container h1 {
+  font-size: 104px;
+ }
+
+ header .content-container p {
+  font-size: 18px;
+ }
+
+ header .buttons-container .btn-contact-me {
+  font-size: 14px;
+  width: 180px;
+ }
+
+ header .image-container img {
+  margin-top: 20px;
+ }
+
+ // header nav .nome-container h1 {
+ //  font-size: 38px;
+ // }
+
+ header nav .menu-container li a {
+  display: none;
+ }
+}
